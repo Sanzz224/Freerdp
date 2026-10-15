@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "bagasdribel-1",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
@@ -41,11 +41,12 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "hostname": "Bagasdribel-1",
       "status": "ok",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "100.105.18.38",
-      "magicdns": "bagasdribel-1.tail2380ba.ts.net."
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     }
   },
   "media": {
@@ -103,5 +104,6 @@
     "errors": [],
     "public_port": false
   },
-  "heartbeat_at": "2026-10-15T20:43:27.1511423Z"
+  "heartbeat_at": "2026-10-15T20:43:27.1511423Z",
+  "stopped_at": "2026-10-15T20:48:12Z"
 }
